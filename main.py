@@ -3,8 +3,10 @@ import telebot
 import google.generativeai as genai
 
 # Substitua pelos seus tokens
-TELEGRAM_TOKEN = 8624351446:AAGa34_bzOYk40ys48fliHMLCP_za9Unyks
-GEMINI_API_KEY = 8624351446:AIzaSyCu2admBo64LrbKwCyzKsW_2SF4pC1Ri3g
+# COPIE E COLE EXATAMENTE ASSIM (COM AS ASPAS):
+
+TELEGRAM_TOKEN = "8624351446:AAGa34_bzOYk40ys48fliHMLCP_za9Unyks"
+GEMINI_API_KEY = "COLE_AQUI_SUA_CHAVE_DO_GEMINI_DENTRO_DAS_ASPAS"
 
 # Configuração do Gemini
 genai.configure(api_key=GEMINI_API_KEY)
